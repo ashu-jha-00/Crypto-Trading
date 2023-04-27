@@ -25,8 +25,18 @@ const Footer = () => {
         </VStack>
 
         <VStack>
-          <Avatar boxSize={"28"} mt={["4", "0"]} src={src} />
-          <Text>Our Founder</Text>
+          <a
+            target="blank"
+            href="https://www.linkedin.com/in/ashutosh-jha-446a711bb/"
+          >
+            <Avatar boxSize={"28"} mt={["4", "0"]} src={src} />
+          </a>
+          <a
+            target="blank"
+            href="https://www.linkedin.com/in/ashutosh-jha-446a711bb/"
+          >
+            <Text>Our Founder</Text>
+          </a>
         </VStack>
       </Stack>
     </Box>
